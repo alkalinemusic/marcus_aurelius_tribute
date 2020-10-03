@@ -1,0 +1,29 @@
+/* ----------- MAIN FORMATTING ----------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  /* padding: 3rem; */
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+/* ------------- HEADER  --------------- */
+.header {
+  height: 100vh;
+  background-image: url(../img/2191305.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 25% 100%);
+}
