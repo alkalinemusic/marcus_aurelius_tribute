@@ -124,9 +124,9 @@ body {
 }
 
 .section-about__paragraph-1 {
-  padding-top: 4.4rem;
+  padding-top: 4.2rem;
   padding-bottom: 15rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .section-about__paragraph-1:before {
