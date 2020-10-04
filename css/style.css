@@ -12,7 +12,7 @@ html {
 
 body {
   background-color: #fff;
-  padding: 3rem;
+  /* padding: 3rem; */
   box-sizing: border-box;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -114,6 +114,7 @@ body {
 
 .section-about {
   background-color: #f4ecec;
+  padding-bottom: 30rem;
 }
 
 .section-about__rows {
@@ -125,40 +126,21 @@ body {
   height: auto;
 }
 
-.section-about__paragraph-1 {
-  padding-top: 4.2rem;
-  letter-spacing: 0.1rem;
+/* ------------- SECTION EARLY   ---------- */
+
+.section-early {
+  background-color: #fff;
+  padding-bottom: 30rem;
 }
 
-.section-about__paragraph-1:before {
-  content: "";
-  display: block;
-  margin: -4rem 0rem -2rem -2.5rem;
-  width: 20%;
-  padding-top: 6rem;
-  border-top: 1px solid rgb(215, 215, 215);
-  border-left: 1px solid rgb(215, 215, 215);
+.section-early__img-1 {
+  width: 80%;
+  height: auto;
+  padding-left: 5rem;
+  
 }
-
-.section-about__paragraph-1:after {
-  content: "";
-  display: block;
-  margin: -6rem 0rem 40rem 45rem;
-  width: 20%;
-  padding-top: 6rem;
-  border-bottom: 1px solid rgb(215, 215, 215);
-  border-right: 1px solid rgb(215, 215, 215);
-}
-
-.section-about--first-letter {
-  color: rgb(106, 0, 35);
-  float: left;
-  font-family: Georgia;
-  font-size: 75px;
-  line-height: 50px;
-  padding-top: 0px;
-  padding-right: 8px;
-  padding-left: 3px;
+.section-early-paragraph-1 {
+    padding-top: 16rem !important;
 }
 
 /* -------------  UTILITIES --------------- */
@@ -171,6 +153,45 @@ body {
   margin-bottom: 8rem;
 }
 /* ----------- END OF UTILITIES ----------- */
+
+/* ------------  REUSEABLESS -------------- */
+
+.paragraph-1 {
+  padding-top: 4.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.paragraph-1:before {
+  content: "";
+  display: block;
+  margin: -4rem 0rem -2rem -2.5rem;
+  width: 20%;
+  padding-top: 6rem;
+  border-top: 1px solid rgb(215, 215, 215);
+  border-left: 1px solid rgb(215, 215, 215);
+}
+
+.paragraph-1:after {
+  content: "";
+  display: block;
+  margin: -6rem 0rem 0rem 45rem;
+  width: 20%;
+  padding-top: 6rem;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  border-right: 1px solid rgb(215, 215, 215);
+}
+
+.paragraph-1-first-letter {
+  color: rgb(106, 0, 35);
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 50px;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+/* -------- END OF REUSEABLESS ------------ */
 
 /* ---------------------------------------- */
 /* -------------- GRID LAYOUT ------------- */
