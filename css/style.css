@@ -137,12 +137,43 @@ body {
   width: 80%;
   height: auto;
   padding-left: 5rem;
-  
 }
 .section-early-paragraph-1 {
-    padding-top: 16rem !important;
+  padding-top: 16rem !important;
+}
+/* ------------- SECTION QUOTE ONE -------- */
+
+.quote {
+  background-color: #f4ecec;
+  height: 97.5rem;
+  position: relative;
 }
 
+.quote-one__first {
+  /* display: block; */
+  position: absolute;
+  margin: 0rem auto;
+  font-size: 5rem;
+  top: 33.33%;
+}
+
+.quote-one__first-paragraph {
+  width: 70%;
+  margin-left: 10rem;
+}
+
+.quote-icons {
+  height: 7rem;
+  display: block;
+}
+
+.quote-icons-left {
+  margin-top: 0rem;
+}
+
+.quote-icons-right {
+  margin-left: 100rem;
+}
 /* -------------  UTILITIES --------------- */
 
 .u-center-text {
@@ -191,6 +222,14 @@ body {
   padding-right: 8px;
   padding-left: 3px;
 }
+
+/* .quotes {
+    display: block;
+  font-size: 20rem;
+  margin: 0 auto;
+  padding: 0;
+} */
+
 /* -------- END OF REUSEABLESS ------------ */
 
 /* ---------------------------------------- */
