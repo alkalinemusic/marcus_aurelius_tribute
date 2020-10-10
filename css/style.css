@@ -144,22 +144,24 @@ body {
 /* ------------- SECTION QUOTE ONE -------- */
 
 .quote {
-  background-color: #f4ecec;
-  height: 97.5rem;
-  position: relative;
+    background-color: #f4ecec;
+    height: 97.5rem;
+    position: relative;
 }
 
 .quote-one__first {
   /* display: block; */
   position: absolute;
   margin: 0rem auto;
-  font-size: 5rem;
-  top: 33.33%;
+  font-size: 8rem;
+  top: 30%;
+  width: 60%;
 }
 
 .quote-one__first-paragraph {
-  width: 70%;
   margin-left: 10rem;
+  font-family: "Romanesco", "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 .quote-icons {
@@ -223,12 +225,7 @@ body {
   padding-left: 3px;
 }
 
-/* .quotes {
-    display: block;
-  font-size: 20rem;
-  margin: 0 auto;
-  padding: 0;
-} */
+
 
 /* -------- END OF REUSEABLESS ------------ */
 
