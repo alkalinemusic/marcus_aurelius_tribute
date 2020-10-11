@@ -117,23 +117,27 @@ body {
   padding-bottom: 30rem;
 }
 
-.section-about__rows {
+.section-about__rows,
+.section-stoic__rows {
   padding-top: 8rem;
 }
 
-.section-about__img-1 {
+.section-about__img-1,
+section-stoic__img-1 {
   width: 90%;
   height: auto;
 }
 
 /* ------------- SECTION EARLY   ---------- */
 
-.section-early {
+.section-early,
+.section-stoic {
   background-color: #fff;
   padding-bottom: 30rem;
 }
 
-.section-early__img-1 {
+.section-early__img-1,
+.section-stoic__img-1 {
   width: 80%;
   height: auto;
   padding-left: 5rem;
@@ -144,29 +148,33 @@ body {
 /* ------------- SECTION QUOTE ONE -------- */
 
 .quote {
-    background-color: #f4ecec;
-    height: 97.5rem;
-    position: relative;
+  display: flex;
+  background-color: #f4ecec;
+  height: 97.5rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-one__first {
   /* display: block; */
-  position: absolute;
+  /*   position: absolute; */
   margin: 0rem auto;
   font-size: 8rem;
-  top: 30%;
-  width: 60%;
+  /*   top: 30%; */
+  width: 80%;
 }
 
 .quote-one__first-paragraph {
-  margin-left: 10rem;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
   font-family: "Romanesco", "Lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 
 .quote-icons {
-  height: 7rem;
-  display: block;
+  height: 6rem;
+  /* display: block; */
 }
 
 .quote-icons-left {
@@ -174,7 +182,10 @@ body {
 }
 
 .quote-icons-right {
-  margin-left: 100rem;
+  margin-top: 4rem;
+  display: flex;
+  margin-left: 80rem;
+  align-items: flex-end;
 }
 /* -------------  UTILITIES --------------- */
 
@@ -224,8 +235,6 @@ body {
   padding-right: 8px;
   padding-left: 3px;
 }
-
-
 
 /* -------- END OF REUSEABLESS ------------ */
 
