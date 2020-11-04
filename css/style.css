@@ -303,3 +303,74 @@ section-stoic__img-1 {
 /* ---------------------------------------- */
 /* ----------- END OF GRID LAYOUT --------- */
 /* ---------------------------------------- */
+
+/* ---------------------------------------- */
+/* ------------ MEDIA QUERIES  ------------ */
+/* ---------------------------------------- */
+
+@media only screen and (max-width: 1500px) {
+  .heading-primary-sub {
+    transform: translate(37%, -160%);
+    display: block;
+    font-size: 3rem;
+    letter-spacing: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header__logo {
+    height: 12rem;
+  }
+
+  .heading-primary-sub {
+    transform: translate(30%, -160%);
+    font-size: 3rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .heading-primary-main {
+    transform: translate(-90%, -20%);
+    font-size: 5rem;
+    letter-spacing: 1.4rem;
+  }
+  .heading-secondary {
+    font-size: 3.8rem;
+    font-weight: 400;
+    padding-top: 8.5rem;
+    letter-spacing: 1rem;
+  }
+
+  .row .col-1-of-2 {
+    width: calc((100% - 10rem) / 2);
+    padding-left: 2rem;
+  }
+
+  .paragraph-1 {
+    width: 90%;
+    font-size: 1.6rem;
+  }
+  .paragraph-1:before {
+    margin: -3rem 0rem -2rem -0.5rem;
+    width: 10%;
+    padding-top: 5rem;
+  }
+
+  .paragraph-1:after {
+    width: 10%;
+    margin: -6rem 0rem 0rem 43rem;
+  }
+
+  .paragraph-1-first-letter {
+    font-size: 6.5rem;
+  }
+
+  .quote-one__first-paragraph {
+    font-size: 6rem;
+  }
+  .quote-icons {
+    height: 5rem;
+  }
+  .quote-icons-right {
+    margin-top: 1rem;
+  }
+}
