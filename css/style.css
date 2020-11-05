@@ -427,7 +427,11 @@ section-stoic__img-1 {
   }
 
   .quote {
-    height: 57.5rem;
+    height: 67.5rem;
+  }
+
+    .quote-one .row {
+    margin-top: -20rem;
   }
 
   .quote-one__first-paragraph {
@@ -470,6 +474,26 @@ section-stoic__img-1 {
   .paragraph-1-first-letter {
     font-size: 5rem;
     line-height: 30px;
+  }
+
+    .quote {
+    height: 40rem;
+  }
+
+  .quote-one .row {
+    margin-top: -6rem;
+  }
+
+  .quote-one__first-paragraph {
+    font-size: 4rem;
+  }
+  .quote-icons {
+    height: 3.5rem;
+  }
+  .quote-icons-right {
+    margin-top: 0rem;
+    /* padding-right: -20rem; */
+    /* margin-bottom: -2rem; */
   }
 }
 /* --------------- 800px  ----------------- */
