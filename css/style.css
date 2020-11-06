@@ -12,7 +12,6 @@ html {
 
 body {
   background-color: #fff;
-  /* padding: 3rem; */
   box-sizing: border-box;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -155,24 +154,18 @@ section-stoic__img-1 {
 }
 
 .quote-one__first {
-  /* display: block; */
-  /*   position: absolute; */
   margin: 0rem auto;
   font-size: 7rem;
-  /*   top: 30%; */
   width: 80%;
 }
 
 .quote-one__first-paragraph {
-  /* margin-left: 10rem;
-  margin-right: 10rem; */
   font-family: "Romanesco", "Lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 
 .quote-icons {
   height: 6rem;
-  /* display: block; */
 }
 
 .quote-icons-left {
@@ -234,7 +227,7 @@ section-stoic__img-1 {
   padding-left: 3px;
 }
 
-/* -------- END OF REUSEABLESS ------------ */
+/* -------- END OF REUSEABLES ------------- */
 
 /* ---------------------------------------- */
 /* -------------- GRID LAYOUT ------------- */
@@ -565,7 +558,6 @@ section-stoic__img-1 {
 
 /* --------------- 525px  ----------------- */
 @media only screen and (max-width: 525px) {
-
   .header {
     background-image: none;
     background-repeat: no-repeat;
@@ -590,7 +582,7 @@ section-stoic__img-1 {
   }
 
   .paragraph-1 {
-    font-size: 1.4rem;;
+    font-size: 1.4rem;
   }
 
   .paragraph-1::after {
@@ -602,6 +594,9 @@ section-stoic__img-1 {
     border-left: none;
   }
   .col-1-of-2 {
-    width:100%;
+    width: 100%;
   }
 }
+/* ---------------------------------------- */
+/* --------- END OF MEDIA QUERIES  -------- */
+/* ---------------------------------------- */
