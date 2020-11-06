@@ -430,7 +430,7 @@ section-stoic__img-1 {
     height: 67.5rem;
   }
 
-    .quote-one .row {
+  .quote-one .row {
     margin-top: -20rem;
   }
 
@@ -442,7 +442,7 @@ section-stoic__img-1 {
   }
   .quote-icons-right {
     margin-top: 0rem;
-    padding-right: 20rem;
+    padding-right: 5rem;
   }
 
   .section-early__img-1 {
@@ -476,7 +476,7 @@ section-stoic__img-1 {
     line-height: 30px;
   }
 
-    .quote {
+  .quote {
     height: 40rem;
   }
 
@@ -488,6 +488,7 @@ section-stoic__img-1 {
     font-size: 4rem;
   }
   .quote-icons {
+    display: none;
     height: 3.5rem;
   }
   .quote-icons-right {
@@ -500,7 +501,7 @@ section-stoic__img-1 {
 @media only screen and (max-width: 800px) {
   .header {
     position: relative;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(
         100deg,
         rgba(255, 255, 255, 1) 0%,
@@ -512,9 +513,6 @@ section-stoic__img-1 {
     background-repeat: no-repeat;
   }
 
-  .header {
-    background-position-x: ;
-  }
   .heading-primary-main {
     font-size: 2.8rem;
     letter-spacing: 0.6rem;
@@ -550,5 +548,60 @@ section-stoic__img-1 {
   .paragraph-1:before {
     margin: -3rem 0rem -4rem -0.5rem;
     padding-top: 5rem;
+  }
+}
+
+/* --------------- 665px  ----------------- */
+
+@media only screen and (max-width: 665px) {
+  .header__logo {
+    height: 8rem;
+  }
+  .header__logo-box {
+    top: 7.5rem;
+    left: 5.5rem;
+  }
+}
+
+/* --------------- 525px  ----------------- */
+@media only screen and (max-width: 525px) {
+
+  .header {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 0rem;
+    height: 70vh;
+  }
+
+  .header__logo {
+    height: 8rem;
+  }
+  .header__logo-box {
+    top: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .heading-primary-main {
+    padding-left: rem;
+    transform: translate(-50%, -10%);
+  }
+  .heading-primary-sub {
+    transform: translate(0%, 70%);
+  }
+
+  .paragraph-1 {
+    font-size: 1.4rem;;
+  }
+
+  .paragraph-1::after {
+    border-bottom: none;
+    border-right: none;
+  }
+  .paragraph-1::before {
+    border-top: none;
+    border-left: none;
+  }
+  .col-1-of-2 {
+    width:100%;
   }
 }
